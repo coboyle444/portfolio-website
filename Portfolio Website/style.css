@@ -106,5 +106,11 @@ aside li {
 
 img {
     max-width:100%;
+    padding:30px;
 }
 
+.container {
+    width: 50%;
+    display:inline-flex;
+    gap:20px;
+}
