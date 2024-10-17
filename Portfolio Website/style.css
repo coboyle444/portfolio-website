@@ -61,12 +61,14 @@ h1 {
     color: white;
     text-align:center;
     font-style:oblique;
+    font-family: Lilita One;
 }
 
 h2 {
     color: white;
     text-align:center;
     text-decoration:overline underline;
+    font-family: Lilita One;
 }
 
 p {
@@ -77,12 +79,14 @@ p {
 h4 {
     color:white;
     text-align:center;
+    font-family: Lilita One;
 }
 
 ul {
     color:rgb(45,47,142);
     column-count: 2;
     padding:1em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 aside {
@@ -106,11 +110,5 @@ aside li {
 
 img {
     max-width:100%;
-    padding:30px;
-}
-
-.container {
-    width: 50%;
-    display:inline-flex;
-    gap:20px;
+    display: inline-flex;
 }
