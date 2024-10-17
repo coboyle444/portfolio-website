@@ -89,6 +89,10 @@ ul {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+ol {
+    color: rgb(45,47,142);
+    text-align:center;
+}
 aside {
     border-style:groove;
     margin:auto;
@@ -115,6 +119,7 @@ table, th, td {
     border: 1px solid white;
     border-collapse: collapse;
     font-family: Indie Flower;
+    color:rgb(45,47,142);
     padding: 15px;
     text-align: center;
     margin:auto;
