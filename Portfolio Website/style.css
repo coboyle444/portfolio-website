@@ -124,3 +124,10 @@ table, th, td {
     text-align: center;
     margin:auto;
 }
+
+footer {
+    text-align: right;
+    font-family: Indie Flower;
+    color: white;
+    font-size: 10px;
+}
