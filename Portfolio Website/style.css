@@ -118,4 +118,6 @@ table, th, td {
     border-collapse: collapse;
     font-family: Indie Flower;
     padding: 15px;
+    text-align: center;
+    margin:auto;
 }
