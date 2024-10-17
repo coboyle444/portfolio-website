@@ -112,3 +112,10 @@ img {
     max-width:100%;
     display: inline-flex;
 }
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    font-family: Indie Flower;
+    padding: 15px;
+}
