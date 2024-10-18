@@ -17,16 +17,13 @@ body {
 
 nav a {
     font-family:'Lilita One';
-    display: flex;
     justify-content: center;
-    padding-left: 0;
 }
 
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    padding: 20px;
 }
 
 nav li {
@@ -112,7 +109,9 @@ aside li {
 
 img {
     max-width:100%;
-    display: inline-flex;
+    display: block;
+    margin:auto;
+    justify-content: center;
 }
 
 table, th, td {
@@ -131,3 +130,6 @@ footer {
     color: white;
     font-size: 10px;
 }
+
+
+
