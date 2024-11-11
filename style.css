@@ -1,5 +1,5 @@
 .lilita-one-regular {
-    font-family: "Lilita One", sans-serif;
+    font-family: "Lilita One, Calibri", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
@@ -10,13 +10,22 @@
     font-style: normal;
   }
   
+#intro {
+    display:block;
+    margin:10%;
+    border: 4px solid white;
+    border-style:ridge;
+    padding:2em;
+}
+
+
 
 body {
     background-color: rgb(159,205,253);
 }
 
 nav a {
-    font-family:'Lilita One';
+    font-family:"Lilita One";
     justify-content: center;
 }
 
@@ -116,10 +125,17 @@ img {
     justify-content: center;
 }
 
+figure {
+    box-shadow:2px 3px 5px;
+    border-radius:2px;
+    padding:1em;
+
+}
+
 table, th, td {
     border: 1px solid white;
     border-collapse: collapse;
-    font-family: Indie Flower;
+    font-family: 'Indie Flower', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     color:rgb(45,47,142);
     padding: 15px;
     text-align: center;
@@ -128,9 +144,10 @@ table, th, td {
 
 footer {
     text-align: right;
-    font-family: Indie Flower;
+    font-family: 'Indie Flower', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     color: white;
     font-size: 10px;
+    position:relative;
 }
 
 
@@ -138,8 +155,13 @@ section {
     border-bottom: 1px dotted darkblue;
 }
 
-media (width > 320px) 
-    nav ul {
+@media (width <= 320px) {
+    .nav ul {
         flex-direction: column;
     }
+}
 /* ^ To change for mobile. Maybe. */
+
+:root {
+    font-size:80%;
+}
