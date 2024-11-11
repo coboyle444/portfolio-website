@@ -20,6 +20,8 @@ nav a {
     justify-content: center;
 }
 
+
+
 nav ul {
     list-style: none;
     display: flex;
@@ -132,4 +134,12 @@ footer {
 }
 
 
+section {
+    border-bottom: 1px dotted darkblue;
+}
 
+media (width > 320px) 
+    nav ul {
+        flex-direction: column;
+    }
+/* ^ To change for mobile. Maybe. */
