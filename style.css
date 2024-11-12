@@ -93,6 +93,7 @@ h4 {
 ul {
     color:rgb(45,47,142);
     column-count: 2;
+    list-style-position: inside;
     padding:1em;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -100,6 +101,7 @@ ul {
 ol {
     color: rgb(45,47,142);
     text-align:center;
+    list-style-position:inside;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 aside {
