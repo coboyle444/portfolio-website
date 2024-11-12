@@ -100,6 +100,7 @@ ul {
 ol {
     color: rgb(45,47,142);
     text-align:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 aside {
     border-style:groove;
@@ -109,7 +110,8 @@ aside {
     text-align:center;
     border-radius: 2.5em;
     padding: 10px 20px;
-    width: 50%
+    width: 75%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 aside li {
