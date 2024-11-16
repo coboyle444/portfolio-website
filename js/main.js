@@ -3,8 +3,10 @@
 // Footer
 window.onload = function() {
     const currentYear = new Date().getFullYear();
-    document.getElementById("footerYear").textContent = currentYear;
+    const yearElement = document.getElementById("current-year");
+    yearElement.textContent = currentYear;
 };
+
 
 
 //Portfolio Greeting
