@@ -44,7 +44,14 @@ btn.addEventListener("click", function () {
 });
 
 
-// Hover Button
-
-
 // for Loops
+const ol = document.getElementById("numbers");
+for (let i = 1; i <=12; i++) {
+    const li = document.createElement("li");
+    if (i % 2 === 0) {
+        li.textContent = 'Even ${i}';
+    } else {
+        li.textContent = 'Odd ${i}';
+    }
+    ol.appendChild(li);
+}
