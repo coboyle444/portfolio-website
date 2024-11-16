@@ -176,3 +176,30 @@ section {
 :root {
     font-size:80%;
 }
+
+#greeting {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 2s ease-in-out;
+    justify-content: center;
+}
+
+.morning {
+    color: black;
+    background-color: #FDFD96;
+    text-align:center;
+}
+
+.afternoon {
+    color: darkblue;
+    background-color: lightsteelblue;
+    text-align: center;
+}
+
+.evening {
+    color: white;
+    background-color: darkblue;
+    text-align: center;
+}
