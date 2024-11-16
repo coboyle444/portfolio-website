@@ -35,9 +35,10 @@ window.onload = function() {
 
 
 // Alert Button
-const button = document.getElementById("btn-alert");
-button.addEventListener("click", function() {
+const btn = document.getElementById("btn-alert");
+btn.addEventListener("click", function () {
     alert("Why can't you hear a pterodactyl going to the bathroom? Because the P is silent.");
 });
+
 // Hover Button
 // for Loops
