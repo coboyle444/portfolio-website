@@ -33,11 +33,18 @@ window.onload = function() {
 };
 
 
-// Alert Button
+// Alert & Hover Button
 const btn = document.getElementById("btn-alert");
 btn.addEventListener("click", function () {
     alert("Why can't you hear a pterodactyl going to the bathroom? Because the P is silent.");
+}); btn.addEventListener("mouseenter", function () {
+    btn.textContent = "If you dare!";
+}); btn.addEventListener("mouseleave", function () {
+    btn.textContent = "Click here to smile";
 });
 
+
 // Hover Button
+
+
 // for Loops
