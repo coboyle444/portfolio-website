@@ -3,8 +3,7 @@
 // Footer
 window.onload = function() {
     const currentYear = new Date().getFullYear();
-    const yearElement = document.getElementById("current-year");
-    yearElement.textContent = currentYear;
+    const yearElement = document.getElementById("footerYear").textContent = currentYear;
 };
 
 
@@ -36,5 +35,9 @@ window.onload = function() {
 
 
 // Alert Button
+const button = document.getElementById("btn-alert");
+button.addEventListener("click", function() {
+    alert("Why can't you hear a pterodactyl going to the bathroom? Because the P is silent.");
+});
 // Hover Button
 // for Loops
