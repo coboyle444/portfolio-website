@@ -19,15 +19,12 @@ window.onload = function() {
     if (currentTime >= 5 && currentTime < 12) {
         greetingMessage = "Morning sunshine!";
         greetingStyle = "morning"; 
-        console.log = "Good morning!";
     } else if (currentTime >= 12 && currentTime < 18) {
         greetingMessage = "Afternoon my friend!";
         greetingStyle = "afternoon"; 
-        console.log = "Good afternoon!";
     } else {
         greetingMessage = "Evening!";
         greetingStyle = "evening"; 
-        console.log = "Good evening!";
     }
 
 
@@ -59,6 +56,5 @@ for (let i = 1; i <= 12; i++) {
     ol.appendChild(li);
 }
 
-console.log('Hello Mr. Peasley!');
-
+console.log('Hello, Mr. Peasley!');
    
