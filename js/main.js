@@ -28,7 +28,7 @@ window.onload = function() {
         greetingMessage = "Evening!";
         greetingStyle = "evening"; 
     }
-
+console.log(greetingMessage);
 
     greetingElement.textContent = greetingMessage;
     greetingElement.className = greetingStyle;
@@ -39,12 +39,12 @@ window.onload = function() {
 const btn = document.getElementById("btn-alert");
 btn.addEventListener("click", function () {
     alert("Why can't you hear a pterodactyl going to the bathroom? Because the P is silent.");
+    console.log('clicked');
 }); btn.addEventListener("mouseenter", function () {
     btn.textContent = "If... you... DARE!";
 }); btn.addEventListener("mouseleave", function () {
     btn.textContent = "Click here to smile";
 });
-
 
 // for Loops
 const ol = document.getElementById("numbers");
