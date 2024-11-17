@@ -178,7 +178,26 @@ section {
     font-size:80%;
 }
 
+#btn-alert {
+    justify-content: center;
+    text-align: center;
+    cursor:pointer;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    align-items: center;
+    display: flex;
+    padding: 5px;
+    border: lightgoldenrodyellow;
+    border-style:ridge;
+    background-color:#FDFD96;
+    font-family: 'Indie Flower', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
 #greeting {
+    font-family: 'Indie Flower', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 2rem;
     font-weight: bold;
     padding: 10px;
