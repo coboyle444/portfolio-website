@@ -19,12 +19,15 @@ window.onload = function() {
     if (currentTime >= 5 && currentTime < 12) {
         greetingMessage = "Morning sunshine!";
         greetingStyle = "morning"; 
+        console.log = "Good morning!";
     } else if (currentTime >= 12 && currentTime < 18) {
         greetingMessage = "Afternoon my friend!";
         greetingStyle = "afternoon"; 
+        console.log = "Good afternoon!";
     } else {
         greetingMessage = "Evening!";
         greetingStyle = "evening"; 
+        console.log = "Good evening!";
     }
 
 
