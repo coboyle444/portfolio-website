@@ -63,5 +63,4 @@ for (let i = 1; i <= 12; i++) {
     ol.appendChild(li);
 }
 
-document.getElementById("numbers").innerHTML = text;
    
