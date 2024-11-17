@@ -3,7 +3,9 @@
 // Footer
 
     const currentYear = new Date().getFullYear();
+    const d = new Date();
     const yearElement = document.getElementById("footerYear").textContent = currentYear;
+    console.log(d);
 
 
 
