@@ -46,12 +46,13 @@ btn.addEventListener("click", function () {
 
 // for Loops
 const ol = document.getElementById("numbers");
-for (let i = 1; i <=12; i++) {
+for (let i = 1; i <= 12; i++) {
     const li = document.createElement("li");
-    if (i % 2 === 0) {
-        li.textContent = 'Even ${i}';
-    } else {
-        li.textContent = 'Odd ${i}';
+    if (i = 1) {
+        listItem.textContent = 'ODD';
+    if (i = 2) {
+        listItem.textContent = 'EVEN';
+    }
+    }
     }
     ol.appendChild(li);
-}
