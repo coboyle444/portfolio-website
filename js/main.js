@@ -46,13 +46,22 @@ btn.addEventListener("click", function () {
 
 // for Loops
 const ol = document.getElementById("numbers");
+
+// Use a for loop to create 12 <li> elements
 for (let i = 1; i <= 12; i++) {
+    // Create a new <li> element
     const li = document.createElement("li");
-    if (i = 1) {
-        listItem.textContent = 'ODD';
-    if (i = 2) {
-        listItem.textContent = 'EVEN';
+
+    // Set the text content based on whether the index is even or odd
+    if (i % 2 === 0) {
+        li.textContent = `Sleep`;
+    } else {
+        li.textContent = `Work`;
     }
-    }
-    }
+
+    // Append the <li> element to the ordered list
     ol.appendChild(li);
+}
+
+document.getElementById("numbers").innerHTML = text;
+   
