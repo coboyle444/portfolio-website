@@ -51,9 +51,9 @@ const ol = document.getElementById("numbers");
 for (let i = 1; i <= 12; i++) {
     const li = document.createElement("li");
     if (i % 2 === 0) {
-        li.textContent = `Sleep`;
+        li.textContent = `Even`;
     } else {
-        li.textContent = `Work`;
+        li.textContent = `Odd`;
     }
     ol.appendChild(li);
 }
