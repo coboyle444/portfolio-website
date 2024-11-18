@@ -47,6 +47,7 @@ btn.addEventListener("click", function () {
 });
 
 // for Loops
+window.onload = function () {
 const ol = document.getElementById("numbers");
 for (let i = 1; i <= 12; i++) {
     const li = document.createElement("li");
@@ -57,6 +58,6 @@ for (let i = 1; i <= 12; i++) {
     }
     ol.appendChild(li);
 }
-
+}
 console.log('Hello, Mr. Peasley!');
    
