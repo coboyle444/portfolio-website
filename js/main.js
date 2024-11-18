@@ -11,12 +11,11 @@
 
 //Portfolio Greeting
 window.onload = function() {
-    const greetingElement = document.getElementById("greeting");
     const currentTime = new Date().getHours(); 
+    const greetingElement = document.getElementById("greeting");
 
     let greetingMessage = "";
     let greetingStyle = "";
-
 
     if (currentTime >= 5 && currentTime < 12) {
         greetingMessage = "Morning sunshine!";
